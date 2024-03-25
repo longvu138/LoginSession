@@ -53,12 +53,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userid`, `first_name`, `last_name`, `email`, `password`, `registration_date`, `class`, `user_level`, `address1`, `address2`, `city`, `state_country`, `zcode_pcode`, `phone`, `paid`, `status`, `activation_code`, `avatar`) VALUES
-(1, 'Trần Long ', 'Vũ', 'tranlongvu138@gmail.com', 'longvu1308', '2020-12-02 11:31:44', 'abc', 0, 'ha noi', 'ha noi', 'ha noi', 'hung yen', '10', '0389709577', 'Yes', '1', 0, ''),
-(2, 'Hoàng Văn', 'Quang', 'hoangvanquang@gmail.com', 'quanghoang', '2020-12-24 21:34:17', '', 0, 'ha nam', 'ha nam', 'ha nam', 'ha nam', '', '0389709568', 'Yes', '0', 0, ''),
+(1, 'Trần Long ', 'Vũ', 'tranlongvu138@gmail.com', 'longvu1308', '2020-12-02 11:31:44', 'abc', 0, 'ha noi', 'ha noi', 'ha noi', 'hung yen', '10', '', 'Yes', '1', 0, ''),
+(2, 'Hoàng Văn', 'Quang', 'hoangvanquang@gmail.com', 'quanghoang', '2020-12-24 21:34:17', '', 0, 'ha nam', 'ha nam', 'ha nam', 'ha nam', '', '', 'Yes', '0', 0, ''),
 (3, 'thanhkien', 'tran', 'thankien@gmail.com', 'thankkien', '2020-12-26 14:37:13', 'abc', 0, 'ha noi', NULL, 'ha noi', 'hung yen', '10', NULL, 'Yes', '0', 0, ''),
 (4, 'hoanglong', 'nguyen', 'hoanglong@gmail.com', 'hoanglong', '2020-12-26 15:30:20', '', 0, 'ha nam', NULL, 'ha noi', 'ha nam', '11', NULL, 'No', '0', 0, ''),
-(24, 'tranlongvu', 'longvu', 'tranlongvu12345@gmail.com.vn', 'a', '2020-12-26 16:16:00', '', 0, 'ha noi', '', 'hung yen', 'hung yen', '10', '0389709570', 'No', '0', 0, ''),
-(25, 'hoang nam', 'tien', 'hnt@gmail.com', 'namtien', '2020-12-26 19:17:00', '', 0, 'nghe an', 'ha noi', 'ha noi', 'nghe an', '25', '256785191', 'No', '0', 0, '');
+(24, 'tranlongvu', 'longvu', 'tranlongvu12345@gmail.com.vn', 'a', '2020-12-26 16:16:00', '', 0, 'ha noi', '', 'hung yen', 'hung yen', '10', '', 'No', '0', 0, ''),
+(25, 'hoang nam', 'tien', 'hnt@gmail.com', 'namtien', '2020-12-26 19:17:00', '', 0, 'nghe an', 'ha noi', 'ha noi', 'nghe an', '25', '', 'No', '0', 0, '');
 
 --
 -- Indexes for dumped tables
